@@ -170,7 +170,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_lwuIFEMtEfCwALMArSHj3w" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_lwuIFUMtEfCwALMArSHj3w"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_lwuIFkMtEfCwALMArSHj3w"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwuIF0MtEfCwALMArSHj3w"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lwuIF0MtEfCwALMArSHj3w" x="54" y="10" width="1291" height="491"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_lwuIGEMtEfCwALMArSHj3w"/>
