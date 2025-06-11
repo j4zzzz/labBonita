@@ -1,0 +1,194 @@
+{
+  "id" : "nuevaSolicitudVacacionesFragmento",
+  "name" : "nuevaSolicitudVacacionesFragmento",
+  "type" : "fragment",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1749601879522,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 12,
+          "sm" : 12,
+          "xs" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "dateFormat" : {
+            "type" : "constant",
+            "value" : "dd/MM/yyyy"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Fecha de inicio"
+          },
+          "type" : {
+            "type" : "constant"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "todayLabel" : {
+            "type" : "constant",
+            "value" : "Today"
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "showToday" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant",
+            "value" : "Ingrese una fecha (dd/mm/aaaa)"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "dataExt"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "9ceb356a-2661-4393-817f-b0317fcd1d5e",
+        "hasValidationError" : false,
+        "id" : "pbDatePicker",
+        "description" : ""
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 12,
+          "sm" : 12,
+          "xs" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Número de días"
+          },
+          "placeholder" : {
+            "type" : "constant",
+            "value" : "Número de días a solicitar"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "number"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "dataExt"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "debounce" : {
+            "type" : "constant",
+            "value" : 0
+          },
+          "min" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "67b89ea8-68eb-4189-978d-3fe807121bc8",
+        "hasValidationError" : false,
+        "id" : "pbInput",
+        "description" : ""
+      }
+    ]
+  ],
+  "variables" : {
+    "dataExt" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : true
+    }
+  },
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "f47c678f-5116-482f-94f9-b3865f33aaa5",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1749563376024,
+  "lastUpdate" : 1749601661625,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -74,7 +74,7 @@
             ],
             [
               {
-                "type" : "container",
+                "type" : "fragment",
                 "dimension" : {
                   "md" : 12,
                   "sm" : 12,
@@ -82,199 +82,19 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
-                  "dimension" : {
+                  "hidden" : {
                     "type" : "constant",
-                    "value" : 12
+                    "value" : false
                   }
                 },
-                "reference" : "4edaa37a-4710-43aa-827c-154166a2d408",
+                "reference" : "3d46e8c6-bc9b-4e3d-a1aa-bb04596b4656",
                 "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "dateFormat" : {
-                          "type" : "constant",
-                          "value" : "dd/MM/yyyy"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Fecha de inicio"
-                        },
-                        "type" : {
-                          "type" : "constant"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "todayLabel" : {
-                          "type" : "constant",
-                          "value" : "Today"
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "showToday" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "placeholder" : {
-                          "type" : "constant",
-                          "value" : "Ingrese una fecha (dd/mm/aaaa)"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.solicitudInput.fechaInicio"
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "9ceb356a-2661-4393-817f-b0317fcd1d5e",
-                      "hasValidationError" : false,
-                      "id" : "pbDatePicker",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Número de días"
-                        },
-                        "placeholder" : {
-                          "type" : "constant",
-                          "value" : "Número de días a solicitar"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "number"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.solicitudInput.numeroDias"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "67b89ea8-68eb-4189-978d-3fe807121bc8",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ]
-                ]
+                "id" : "nuevaSolicitudVacacionesFragmento",
+                "binding" : { }
               }
             ],
             [
